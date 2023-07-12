@@ -1,0 +1,25 @@
+.opm-time,
+.aot-time,
+.ds-time,
+.naruto-time,
+.op-time,
+.csm-time,
+.cg-time,
+.hxh-time,
+.berserk-time,
+.jk-time,
+.tt-time,
+.dn-time {
+  background-color: rgb(27, 26, 26);
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right:10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+}

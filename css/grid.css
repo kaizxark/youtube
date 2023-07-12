@@ -1,0 +1,41 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 550px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1250px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.opm-data-div,
+.aot-data-div, 
+.ds-data-div,
+.naruto-data-div,
+.op-data-div,
+.csm-data-div,
+.cg-data-div,
+.hxh-data-div,
+.berserk-data-div,
+.jk-data-div,
+.tt-data-div,
+.dn-data-div {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  gap: 10px;
+}
+

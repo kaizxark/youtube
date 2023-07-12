@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 95px;
+  padding-right: 25px;
+  background-color: rgb(248, 248, 248);
+  font-family: Roboto, Arial;
+}
+
+.opm-thumbnail,
+.aot-thumbnail,
+.ds-thumbnail,
+.naruto-thumbnail,
+.op-thumbnail,
+.csm-thumbnail,
+.cg-thumbnail,
+.hxh-thumbnail,
+.berserk-thumbnail,
+.jk-thumbnail,
+.tt-thumbnail,
+.dn-thumbnail {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.opm-thumbnail-div,
+.aot-thumbnail-div,
+.ds-thumbnail-div,
+.naruto-thumbnail-div,
+.op-thumbnail-div,
+.csm-thumbnail-div,
+.cg-thumbnail-div,
+.hxh-thumbnail-div,
+.berserk-thumbnail-div,
+.jk-thumbnail-div,
+.tt-thumbnail-div,
+.dn-thumbnail-div {
+  position: relative;
+}
+
+.opm-thumbnail:hover,
+.aot-thumbnail:hover,
+.ds-thumbnail:hover,
+.naruto-thumbnail:hover,
+.op-thumbnail:hover,
+.csm-thumbnail:hover,
+.cg-thumbnail:hover,
+.hxh-thumbnail:hover,
+.berserk-thumbnail:hover,
+.jk-thumbnail:hover,
+.tt-thumbnail:hover,
+.dn-thumbnail:hover {
+  opacity: 0.9;
+}
+
+.opm-thumbnail:active,
+.aot-thumbnail:active,
+.ds-thumbnail:active,
+.naruto-thumbnail:active,
+.op-thumbnail:active,
+.csm-thumbnail:active,
+.cg-thumbnail:active,
+.hxh-thumbnail:active,
+.berserk-thumbnail:active,
+.jk-thumbnail:active,
+.tt-thumbnail:active,
+.dn-thumbnail:active {
+  opacity: 0.8;
+}
+
+.opm-profile,
+.aot-profile, 
+.ds-profile,
+.naruto-profile,
+.op-profile,
+.csm-profile,
+.cg-profile,
+.hxh-profile,
+.berserk-profile,
+.jk-profile,
+.tt-profile,
+.dn-profile {
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.opm-profile:hover,
+.aot-profile:hover,
+.ds-profile:hover,
+.naruto-profile:hover,
+.op-profile:hover,
+.csm-profile:hover,
+.cg-profile:hover,
+.hxh-profile:hover,
+.berserk-profile:hover,
+.jk-profile:hover,
+.tt-profile:hover,
+.dn-profile:hover {
+  opacity: 0.9;
+}
+
+.opm-profile:active,
+.aot-profile:active,
+.ds-profile:active,
+.naruto-profile:active,
+.op-profile:active,
+.csm-profile:active,
+.cg-profile:active,
+.hxh-profile:active,
+.berserk-profile:active,
+.jk-profile:active,
+.tt-profile:active,
+.dn-profile:active {
+  opacity: 0.8;
+}
+
+
+.opm-info,
+.aot-info,
+.ds-info,
+.naruto-info,
+.op-info,
+.csm-info,
+.cg-info,
+.hxh-info,
+.berserk-info,
+.jk-info,
+.tt-info,
+.dn-info {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: -5px;
+}
+
+.opm-info-div,
+.aot-info-div,
+.ds-info-div,
+.naruto-info-div,
+.op-info-div,
+.csm-info-div,
+.cg-info-div,
+.hxh-info-div,
+.berserk-info-div,
+.jk-info-div,
+.tt-info-div,
+.dn-info-div {
+  margin-top: -12px;
+}
+
+.opm-author,
+.aot-author,
+.ds-author,
+.naruto-author,
+.op-author,
+.csm-author,
+.cg-author,
+.hxh-author,
+.berserk-author,
+.jk-author,
+.tt-author,
+.dn-author {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(126, 124, 124);
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+
+.opm-stats,
+.aot-stats,
+.ds-stats,
+.naruto-stats,
+.op-stats,
+.csm-stats,
+.cg-stats,
+.hxh-stats,
+.berserk-stats,
+.jk-stats,
+.tt-stats,
+.dn-stats {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(126, 124, 124);
+  font-weight: bold;
+}
